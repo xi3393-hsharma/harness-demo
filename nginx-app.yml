@@ -29,5 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
+        image: hridyanshu/pipelinedemo
         ports:
         - containerPort: 80
