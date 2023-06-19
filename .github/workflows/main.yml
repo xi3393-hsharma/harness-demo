@@ -12,5 +12,5 @@ jobs:
         echo "Hello"
         git clone https://github.com/xi3393-hsharma/harness-demo.git
         cd harness-demo
-        git remote add test https://xi3393-hsharma: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@github.com/xi3393-hsharma/test.git
+        git remote add test https://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@github.com/xi3393-hsharma/test.git
         git push test --all
