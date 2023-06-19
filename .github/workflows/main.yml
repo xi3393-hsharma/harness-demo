@@ -11,3 +11,4 @@ jobs:
       run: |
         echo "Hello"
         git clone https://github.com/xi3393-hsharma/harness-demo.git
+        cd harness-demo
