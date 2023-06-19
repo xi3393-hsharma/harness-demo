@@ -15,5 +15,5 @@ jobs:
         git remote set-url origin git@github.com:xi3393-hsharma/harness-demo.git
         git config --global user.name xi3393-hsharma
         git config --global user.email hridyanshu.sharma@xebia.com
-        git remote add test git@github.com/xi3393-hsharma/test.git
+        git remote add test https://github.com/xi3393-hsharma/test.git
         git push test --all
