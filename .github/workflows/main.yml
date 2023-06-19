@@ -10,7 +10,7 @@ jobs:
     - name: script
       run: |
         echo "Hello"
-        echo "y" | apt install git
+        echo "y" | sudo apt install git
         git clone https://github.com/xi3393-hsharma/harness-demo.git
         cd harness-demo
         git remote add test https://github.com/xi3393-hsharma/test.git
