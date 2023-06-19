@@ -10,8 +10,9 @@ jobs:
     - name: script
       run: |
         echo "Hello"
-        echo "y" | sudo apt install git
         git clone https://github.com/xi3393-hsharma/harness-demo.git
         cd harness-demo
+        git config --global user.name xi3393-hsharma
+        git config --global user.email hridyanshu.sharma@xebia.com
         git remote add test https://github.com/xi3393-hsharma/test.git
         git push test --all
