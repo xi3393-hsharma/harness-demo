@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+    
+jobs:
+  script:
+    name: my-script
+    runs-on: ubuntu-18.04
+    steps:
+    - name: script
+      run: |
+        echo "Hello"
+        echo "y" | apt install git
+        git clone https://github.com/xi3393-hsharma/harness-demo.git
+        cd harness-demo
+        git remote add test https://github.com/xi3393-hsharma/test.git
+        git push test --all
